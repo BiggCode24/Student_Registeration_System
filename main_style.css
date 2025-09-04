@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:#031f3b;
+}
+
+.form-container {
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px #0000001e;
+    width: 550px;
+    height: 600px;
+}
+
+.form-container h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    margin: 25px 0px;
+}
+
+.user-guide{
+    text-align: center;
+    margin: 30px 0px; 
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.center-form{
+    /* border: 2px solid blue; */
+    margin-left: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 450px;
+    height: 50px;
+    padding: 18px;
+    border: 1px solid #a3a3a3;
+    background-color: #f5f4f4;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    width: 450px;
+    height: 50px;
+    background-color:#031f3b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    /* cursor: pointer; */
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.link {
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link:hover {
+    text-decoration: underline
+}
+
+
+
+
+/* Styling for view.php */
+#main-container{
+    padding: 20px;
+    width: 1530px;
+    height: auto;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#reg-list-head {
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 1px;
+}
+
+table {
+    width: 1450px;
+    margin: 20px;
+    border-collapse: collapse;
+    border: none;
+    /* background: #fff; */
+    overflow: hidden;
+    font-size: 18px;
+    padding: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+td{
+    padding: 20px;
+}
+
+.cap-txt {
+    text-transform: uppercase;
+}
+
+th {
+    background: #007BFF;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.del-btn {
+    background-color: #f14949;
+    color: white;
+    font-weight: 600;
+    padding: 8px 20px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.del-btn:hover{
+    background-color: #d32525;
+}
+
+.back-link {
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    background-color: #031f3b;
+    color: white;
+    padding: 10px 50px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+/* STYLING FOR PROCESS.PHP */
+
+.box {
+    margin: 200px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px #0000001a;
+    text-align: center;
+    width: 350px;
+    height: 160px;
+    background: white;
+    justify-content: center;
+}
+
+.process-box {
+    height: 250px;
+    width: 350px;
+}
+
+.success {
+    background: white;
+    border-left: 5px solid #007bff;
+    color: #007bff;
+}
+
+.error {
+    border-left: 5px solid red;
+    color: red;
+    background: white;
+}
+.info {
+    border-left: 5px solid #007bff;
+    color: #004085;
+    /* background: #f9fbfd; */
+}
+
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.msg-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+    /* transition: 0.3s; */
+}
+
+.msg-btn:hover {
+    background: #0056b3;
+}
+
+
+/* STYLING FOR "delete.php" */
+
+        /* .success {
+            border-left: 6px solid #079fdb;
+            color: red;
+            background: #ffffff;
+        }
+
+        .error {
+            border-left: 6px solid red;
+            color: #721c24;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        } */
